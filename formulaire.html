@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Insert in BDD with a Form</title>
+        <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Formulaire d'exemple</h2>
+<form id="main_box" action="traitement.php" method="POST">
+  <p><i>Les champs marqué par</i><em>*</em> sont <em>obligatoires</em></p>
+  <fieldset>
+    <legend>Contact</legend>
+      <label for="nom">Nom <em>*</em></label>
+       <!--//placeholder: indication grisée -->
+       <!-- //required: il faut renseigner le champs sinon la validation est bloquée -->
+       <!--//autofocus: le curseur est positionné dans cette case au chargement de la page -->
+      <input id="nom" placeholder="" autofocus="" required="" ><br>
+      <label for="telephone">Portable</label>
+       <!--// type="tel": bascule le clavier sur un smartphone -->
+       <!--// pattern: expression régulière à vérifier pour pouvoir valider -->
+      <input id="telephone" type="tel" placeholder=""><br>
+      <label for="email">Email <em>*</em></label>
+      <input id="email" type="email" placeholder="" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@"><br>
+  </fieldset>
+  <fieldset>
+    <legend>Information personnelles</legend>
+      <label for="age">Age<em>*</em></label>
+      <!-- type="number": bascule le clavier sur un smartphone-->
+      <input id="age" type="number" placeholder="" pattern="[0-9]{2}" required=""><br>
+      <label for="sexe">Sexe</label>
+      <select id="sexe">
+        <option value="F" name="sexe">Femme</option>
+        <option value="H" name="sexe">Homme</option>
+      </select><br>
+      <label for="comments">Votre / vos question(s)</label>
+      <textarea id="comments"></textarea>
+  </fieldset>
+  <p><input type="submit" value="Soummettre"></p><p><input type="reset" value="Annuler"></p>
+</form>
+    </body>
+</html>
