@@ -22,6 +22,7 @@
      echo 'Nom : ' . $nom . ' Age : ' . $age . ' Adresse : ' . $adresse . ' Téléphone' . $telephone . ' Email' . $email . ' sexe ' . $sexe . ' comments '. $comments ; 
      exit;
   }
+  // Ajouter la partie pour les fonctions SQL
 ?>
     </body>
 </html>
