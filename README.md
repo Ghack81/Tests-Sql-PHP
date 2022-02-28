@@ -1,4 +1,4 @@
-# Tests-Sql-PHP
+# Tests Sql PHP
 
 Some small scripts in PHP for the processing of SQL requests. 
 A directory to discover subjects on SQL, PHP with a minimum of layout with HTML 5 and CSS 3. 
