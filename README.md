@@ -1,17 +1,13 @@
-<<<<<<< HEAD
-# Tests with PHP, SQL, HTML, CSS and JavaScript
-=======
-# Tests Sql PHP
->>>>>>> 26d6525453ae57b75c608ad386d33988883b5827
+# Tests with PHP, SQL, HTML, CSS and JavvaScript
 
 Some small scripts in PHP for the processing of SQL requests. 
 A directory to discover subjects on SQL, PHP with a minimum of layout with HTML 5 and CSS 3. 
 This could help for a first grip before the big leap of the mixture of all its technologies.
 
-## Help PHP
+### 13 Best PHP Tutorials for Beginners
 
-### 13 Best Free PHP Tutorials for Beginners
-=> Link : https://athemes.com/collections/best-php-tutorials/
+=> 13 Best Free PHP Tutorials for Beginners.
+Link : https://athemes.com/collections/best-php-tutorials/
 
 1. PHP Manual
 2. The PHP Practitioner by Laracasts
@@ -26,3 +22,4 @@ This could help for a first grip before the big leap of the mixture of all its t
 11. PHP Front to Back by Traversy Media
 12. Learn-PHP.org
 13. SoloLearn PHP Tutorial
+
