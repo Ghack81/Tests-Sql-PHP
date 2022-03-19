@@ -18,9 +18,9 @@ $sql="SELECT * from CARNET";
 if(!$connexion->query($sql)) echo "Pb d'accès au CARNET";
 else{
      foreach ($connexion->query($sql) as $row)
-     echo $row['PRENOM']." ".
-          $row['NOM']."né(e) le ".
-          $row['NAISSANCE']."<br/>\n";
+     echo $row['NOM']."né(e) le ".
+          $row['Téléphone']."<br/>\n".
+          $row['Email']."<br/>\n";
 }
 ?>
 ?>
