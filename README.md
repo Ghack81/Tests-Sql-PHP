@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Tests with PHP, SQL, HTML, CSS and JavaScript
+=======
+# Tests Sql PHP
+>>>>>>> 26d6525453ae57b75c608ad386d33988883b5827
 
 Some small scripts in PHP for the processing of SQL requests. 
 A directory to discover subjects on SQL, PHP with a minimum of layout with HTML 5 and CSS 3. 
