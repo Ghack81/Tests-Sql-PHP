@@ -30,7 +30,8 @@
         }
     
     }
-    $voiture = new Voiture();
+    $voiture = new Voiture();// Erreur sur l'objet !
+
     $voiture->setMarque("Audi");
     // appeler la méthode de la classe voiture
     $voiture->conduire();
