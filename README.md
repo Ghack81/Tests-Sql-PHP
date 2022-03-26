@@ -25,3 +25,5 @@ Link : https://athemes.com/collections/best-php-tutorials/
 12. Learn-PHP.org
 13. SoloLearn PHP Tutorial
 
+Follow the latest news
+=> https://www.reddit.com/r/PHP/
